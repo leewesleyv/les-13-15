@@ -1,0 +1,65 @@
+html {
+    background-color: rgb(255, 194, 250);
+}
+
+body {
+    margin: auto;
+    padding: 40px;
+}
+
+header {
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+    height: 12px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(149, 80, 186);
+}
+    
+li:hover {
+    background-color: rgb(255, 155, 247);
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer {
+    background-color: rgb(149, 80, 186);
+    text-align: center;
+    color: wheat;
+    padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px 5px;
+}
+
+input[type="text"], input[type="email"], textarea, select, button {
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    padding: 5px 4px;
+}
+
+button:active {
+    background-color: rgb(255, 155, 247);
+    color: white;
+    border-radius: 4px;
+}
